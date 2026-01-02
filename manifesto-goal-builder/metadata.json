@@ -1,0 +1,7 @@
+{
+  "name": "Manifesto Goal Builder",
+  "description": "An application to help users create a vivid, high-vibration 30-day goal picture incorporating Tony Robbins' 6 human needs and sensory details, with integrated AI text-to-speech.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
