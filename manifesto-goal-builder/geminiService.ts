@@ -2,7 +2,7 @@
 import { GoogleGenAI, Modality } from "@google/genai";
 import { GoalFormState } from "./types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 export const generateGoalPicture = async (data: GoalFormState): Promise<string> => {
   const prompt = `
